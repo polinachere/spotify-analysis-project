@@ -1,4 +1,4 @@
-python
+
 import pandas as pd
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
@@ -54,4 +54,5 @@ def main():
     app.run_polling()
 
 if name == "main":
+
     main()
