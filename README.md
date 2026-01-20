@@ -34,6 +34,12 @@ spotify_все_данные.csv - все объединённые данные
 git clone https://github.com/ВАШ_ЛОГИН/spotify-analysis-project.git
 cd spotify-analysis-project
 
+python -m venv venv
+venv\Scripts\activate
+
+pip install -r requirements.txt
+
+
 
 
 
