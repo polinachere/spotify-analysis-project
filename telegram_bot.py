@@ -53,6 +53,7 @@ def main():
     print(f"✅ Бот готов! Запускаю...")
     app.run_polling()
 
-if name == "main":
+if name == "__main__":
 
     main()
+
