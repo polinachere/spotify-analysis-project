@@ -42,7 +42,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # 4. Запуск бота
 def main():
     # КАЖДЫЙ РАЗРАБОТЧИК ВСТАВЛЯЕТ СВОЙ ТОКЕН!
-    TOKEN = "8579238920:AAEyilXpNUwwmY6uXRgx0nmnu6jDTQrOjPM"
+    TOKEN = ваш токен
     
     app = Application.builder().token(TOKEN).build()
     
@@ -56,5 +56,6 @@ def main():
 if name == "__main__":
 
     main()
+
 
 
